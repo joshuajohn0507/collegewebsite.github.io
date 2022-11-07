@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;700&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48
+        }
+    </style>
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="material-symbols-outlined" onclick="hideMenu()">close</i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="material-symbols-outlined" onclick="showMenu()">menu</i>
+        </nav>
+        <h1>About Us</h1>
+</section>
+
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">'
+            <h1>We are the world's largest University</h1>
+            <p>Founded to accelerate the nation’s industrial revolution is profoundly American. With ingenuity and drive, our graduates have invented fundamental technologies, launched new industries, and created millions of American jobs. At the same time, and without the slightest sense of contradiction is profoundly global. Our community gains tremendous strength as a magnet for talent from around the world. Through teaching, research, and innovation, exceptional community pursues its mission of service to the nation and the world.</p>
+            <a href="" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="eduford_img/about.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This community is driven by a shared purpose: to make a better world through education, research, and innovation. </p>
+    <div class="icons">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-linkedin"></ion-icon>
+        <ion-icon name="logo-whatsapp"></ion-icon>
+    </div>
+</section>
+
+<script>
+     
+    var navLinks  = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+ 
+</body>
+</html>
